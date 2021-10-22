@@ -27,13 +27,18 @@
                         </ul>
                     </nav>
                     <div class="social-network">
+                        <h4 id="contact-title">Contact Me</h4>
                         <ul class="social-icons">
                             <li>
                                 <!-- MISSING GITHUB ICON -->
-                                <a href="https://github.com/PQbiit"></a>
+                                <a id="github-link" href="https://github.com/PQbiit"> 
+                                    <img class="github-icon" src="/assets/images/githubWhite.png" alt="">
+                                </a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/in/laaq/"></a>
+                                <a id="linkedin-link" href="https://www.linkedin.com/in/laaq/">
+                                    <img class="linkedin-icon" src="/assets/images/linkedinWhite.png" alt="">
+                                </a>
                             </li>
                         </ul>
                     </div>  
@@ -44,10 +49,12 @@
                     <div class="section-heading">
                         <h2>About Me</h2>
                         <div class="line-dec"></div>
-                        <span>
-                            My professional and life goal is to use my software engineering skills to make sure that every piece of software that I develop enhances the life of every person that uses it.
-                            I strongly believe that technology is a powerful tool that can be used to build bridges that link different ideas, cultures and ultimately people. I am passionate about UX design, specifically in the field of disability, being an advocate for inclusive and accessibility design.
-                            My speciality is in the field of the mobile development where I have developed several projects mainly for iOS. I hope that bringing this expertise alongside with my passion for inclusive design can help me fulfill the vision of Sady Paulson, who once said “When technology is designed for everyone, it lets anyone do what they love.”
+                        <span id="about-text">
+                            <p>
+                                My professional and life goal is to use my software engineering skills to make sure that every piece of software that I develop enhances the life of every person that uses it.<br>
+                                <br>I strongly believe that technology is a powerful tool that can be used to build bridges that link different ideas, cultures and ultimately people. I am passionate about UX design, specifically in the field of disability, being an advocate for inclusive and accessibility design.<br>
+                                <br>My speciality is in the field of the mobile development where I have developed several projects mainly for iOS. I hope that bringing this expertise alongside with my passion for inclusive design can help me fulfill the vision of Sady Paulson, who once said “When technology is designed for everyone, it lets anyone do what they love.”
+                            </p>
                         </span>
                     </div>
                 </div>
@@ -61,17 +68,19 @@
                         <span>
                             These are some of the tools, languages and frameworks that I have worked with
                         </span>
+                    </div>
+                    <div class="glider-container">
                         <div class="glide">
-                            <div class="glide__arrows" data-glide-el="controls">
-                                <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
-                                <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+                            <div class="glide__arrows glide-buttons-container" data-glide-el="controls">
+                                <button class="white-button" data-glide-dir="<">prev</button>
+                                <button class="white-button" data-glide-dir=">">next</button>
                             </div>
                             <div class="glide__track" data-glide-el="track">
                                 <ul class="glide__slides">
                                     <li class="glide__slide">
-                                      <div id="tool-container">
-                                          <section id="tool-logo">
-                                              <img src="assets/images/htmlLogo.png" alt="">
+                                      <div class="tool-container">
+                                          <section class="tool-logo">
+                                              <img class="tool-image" src="assets/images/htmlLogo.png" alt="">
                                           </section>
                                           <section id="tool-name">
                                               <p>HTML</p>
@@ -79,9 +88,9 @@
                                       </div>
                                     </li>
                                     <li class="glide__slide">
-                                        <div id="tool-container">
-                                            <section id="tool-logo">
-                                                <img src="assets/images/cssLogo.png" alt="">
+                                        <div class="tool-container">
+                                            <section class="tool-logo">
+                                                <img class="tool-image" src="assets/images/cssLogo.png" alt="">
                                             </section>
                                             <section id="tool-name">
                                                 <p>CSS</p>
@@ -89,9 +98,9 @@
                                         </div>
                                     </li>
                                     <li class="glide__slide">
-                                        <div id="tool-container">
-                                            <section id="tool-logo">
-                                                <img src="assets/images/javascriptLogo.png" alt="">
+                                        <div class="tool-container">
+                                            <section class="tool-logo">
+                                                <img class="tool-image" src="assets/images/javascriptLogo.png" alt="">
                                             </section>
                                             <section id="tool-name">
                                                 <p>Javascript</p>
@@ -99,9 +108,9 @@
                                         </div>
                                     </li>
                                     <li class="glide__slide">
-                                        <div id="tool-container">
-                                            <section id="tool-logo">
-                                                <img src="assets/images/axiosLogo.png" alt="">
+                                        <div class="tool-container">
+                                            <section class="tool-logo">
+                                                <img class="tool-image" src="assets/images/axiosLogo.png" alt="">
                                             </section>
                                             <section id="tool-name">
                                                 <p>Axios</p>
@@ -109,9 +118,9 @@
                                         </div>
                                     </li>
                                     <li class="glide__slide">
-                                        <div id="tool-container">
-                                            <section id="tool-logo">
-                                                <img src="assets/images/nodelogo.png" alt="">
+                                        <div class="tool-container">
+                                            <section class="tool-logo">
+                                                <img class="tool-image" src="assets/images/nodelogo.png" alt="">
                                             </section>
                                             <section id="tool-name">
                                                 <p>Node.js</p>
@@ -119,9 +128,9 @@
                                         </div>
                                     </li>
                                     <li class="glide__slide">
-                                        <div id="tool-container">
-                                            <section id="tool-logo">
-                                                <img src="assets/images/expresslogo.png" alt="">
+                                        <div class="tool-container">
+                                            <section class="tool-logo">
+                                                <img class="tool-image" src="assets/images/expresslogo.png" alt="">
                                             </section>
                                             <section id="tool-name">
                                                 <p>Express</p>
@@ -129,9 +138,9 @@
                                         </div>
                                     </li>
                                     <li class="glide__slide">
-                                        <div id="tool-container">
-                                            <section id="tool-logo">
-                                                <img src="assets/images/swiftLogo.png" alt="">
+                                        <div class="tool-container">
+                                            <section class="tool-logo">
+                                                <img class="tool-image" src="assets/images/swiftLogo.png" alt="">
                                             </section>
                                             <section id="tool-name">
                                                 <p>Swift</p>
@@ -139,9 +148,9 @@
                                         </div>
                                     </li>
                                     <li class="glide__slide">
-                                        <div id="tool-container">
-                                            <section id="tool-logo">
-                                                <img src="assets/images/firebaselogo.png" alt="">
+                                        <div class="tool-container">
+                                            <section class="tool-logo">
+                                                <img class="tool-image" src="assets/images/firebaselogo.png" alt="">
                                             </section>
                                             <section id="tool-name">
                                                 <p>Firebase</p>
@@ -149,9 +158,9 @@
                                         </div>
                                     </li>
                                     <li class="glide__slide">
-                                        <div id="tool-container">
-                                            <section id="tool-logo">
-                                                <img src="assets/images/tableauLogo.png" alt="">
+                                        <div class="tool-container">
+                                            <section class="tool-logo">
+                                                <img class="tool-image" src="assets/images/tableauLogo.png" alt="">
                                             </section>
                                             <section id="tool-name">
                                                 <p>Tableau</p>
@@ -162,6 +171,7 @@
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </section>
 
@@ -173,7 +183,7 @@
                     </div>
                     <div class="left-image-post">
                         <div class="left-image">
-                            <img src="assets/images/heatsressLogo.png" alt="" />
+                            <img class="project-image" src="assets/images/heatsressLogo.png" alt="" />
                         </div>
                         <div class="right-text">
                             <h4>HeatStress</h4>
@@ -198,12 +208,12 @@
                             </p>
                         </div>
                         <div class="right-image">
-                            <img src="assets/images/arcaLogo.png" alt="" />
+                            <img class="project-image" src="assets/images/arcaLogo.png" alt="" />
                         </div>
                     </div>
                     <div class="left-image-post">
                         <div class="left-image">
-                            <img src="assets/images/itesmlogo.png" alt="" />
+                            <img class="project-image" src="assets/images/itesmlogo.png" alt="" />
                         </div>
                         <div class="right-text">
                             <h4>TECNOLÓGICO DE MONTERREY - CONEXIÓN TEC WEB SITE</h4>
@@ -222,11 +232,11 @@
                               a site that helps TV fans to connect with their favorite shows by giving them access to the most up to date info of their shows like new trailer releases, opinions, show’s rating and more. It also allows people to discover their next binge worthy program by showcasing the most popular shows right now.
                             </p>
                             <div class="white-button">
-                              <a href="#">Read More</a>
+                              <a href="https://youtu.be/gN7sNJGxog4">Watch Demo</a>
                             </div>
                         </div>
                         <div class="right-image">
-                            <img src="assets/images/seriesTimeCover.png" alt="" />
+                            <img class="project-image" src="assets/images/seriesTimeCover.png" alt="" />
                         </div>
                     </div>
                 </div>
@@ -235,7 +245,10 @@
        </div>
        <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
        <script>
-           new Glide('.glide').mount()
+           new Glide('.glide',{
+            type: 'carousel',
+            perView: 2
+           }).mount()
        </script>
     </body>
 </html>
