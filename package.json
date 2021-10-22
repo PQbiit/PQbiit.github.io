@@ -1,0 +1,23 @@
+{
+  "name": "pqbiit.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PQbiit/PQbiit.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PQbiit/PQbiit.github.io/issues"
+  },
+  "homepage": "https://github.com/PQbiit/PQbiit.github.io#readme",
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1"
+  }
+}

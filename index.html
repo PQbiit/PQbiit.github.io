@@ -5,8 +5,237 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>LAAQ Portfolio</title>
+        <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
     </head>
     <body>
-       <h1>Hello world!</h1>
+       <div id="page-wraper">
+            <div id="menu" class="menu">
+                <div class="container">
+                    <div class="image">
+                        <a href="#"><img src="/assets/images/profileIMG.jpg" alt="profile_image"></a>
+                    </div>
+                    <div class="author">
+                        <h4>Luis Alfonso Arriaga Quezada</h4>
+                        <span>iOS Developer</span>
+                    </div>
+                    <nav class="main-nav" role="navigation">
+                        <ul class="main-menu">
+                          <li><a href="#section1">About Me</a></li>
+                          <li><a href="#section2">My Skills</a></li>
+                          <li><a href="#section3">My Projects</a></li>
+                        </ul>
+                    </nav>
+                    <div class="social-network">
+                        <ul class="social-icons">
+                            <li>
+                                <!-- MISSING GITHUB ICON -->
+                                <a href="https://github.com/PQbiit"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/laaq/"></a>
+                            </li>
+                        </ul>
+                    </div>  
+                </div>
+            </div>
+            <section class="section about-me" data-section="section1">
+                <div class="container">
+                    <div class="section-heading">
+                        <h2>About Me</h2>
+                        <div class="line-dec"></div>
+                        <span>
+                            My professional and life goal is to use my software engineering skills to make sure that every piece of software that I develop enhances the life of every person that uses it.
+                            I strongly believe that technology is a powerful tool that can be used to build bridges that link different ideas, cultures and ultimately people. I am passionate about UX design, specifically in the field of disability, being an advocate for inclusive and accessibility design.
+                            My speciality is in the field of the mobile development where I have developed several projects mainly for iOS. I hope that bringing this expertise alongside with my passion for inclusive design can help me fulfill the vision of Sady Paulson, who once said “When technology is designed for everyone, it lets anyone do what they love.”
+                        </span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section my-skills" data-section="section2">
+                <div class="container">
+                    <div class="section-heading">
+                        <h2>My Skills</h2>
+                        <div class="line-dec"></div>
+                        <span>
+                            These are some of the tools, languages and frameworks that I have worked with
+                        </span>
+                        <div class="glide">
+                            <div class="glide__arrows" data-glide-el="controls">
+                                <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+                                <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+                            </div>
+                            <div class="glide__track" data-glide-el="track">
+                                <ul class="glide__slides">
+                                    <li class="glide__slide">
+                                      <div id="tool-container">
+                                          <section id="tool-logo">
+                                              <img src="assets/images/htmlLogo.png" alt="">
+                                          </section>
+                                          <section id="tool-name">
+                                              <p>HTML</p>
+                                          </section>
+                                      </div>
+                                    </li>
+                                    <li class="glide__slide">
+                                        <div id="tool-container">
+                                            <section id="tool-logo">
+                                                <img src="assets/images/cssLogo.png" alt="">
+                                            </section>
+                                            <section id="tool-name">
+                                                <p>CSS</p>
+                                            </section>
+                                        </div>
+                                    </li>
+                                    <li class="glide__slide">
+                                        <div id="tool-container">
+                                            <section id="tool-logo">
+                                                <img src="assets/images/javascriptLogo.png" alt="">
+                                            </section>
+                                            <section id="tool-name">
+                                                <p>Javascript</p>
+                                            </section>
+                                        </div>
+                                    </li>
+                                    <li class="glide__slide">
+                                        <div id="tool-container">
+                                            <section id="tool-logo">
+                                                <img src="assets/images/axiosLogo.png" alt="">
+                                            </section>
+                                            <section id="tool-name">
+                                                <p>Axios</p>
+                                            </section>
+                                        </div>
+                                    </li>
+                                    <li class="glide__slide">
+                                        <div id="tool-container">
+                                            <section id="tool-logo">
+                                                <img src="assets/images/nodelogo.png" alt="">
+                                            </section>
+                                            <section id="tool-name">
+                                                <p>Node.js</p>
+                                            </section>
+                                        </div>
+                                    </li>
+                                    <li class="glide__slide">
+                                        <div id="tool-container">
+                                            <section id="tool-logo">
+                                                <img src="assets/images/expresslogo.png" alt="">
+                                            </section>
+                                            <section id="tool-name">
+                                                <p>Express</p>
+                                            </section>
+                                        </div>
+                                    </li>
+                                    <li class="glide__slide">
+                                        <div id="tool-container">
+                                            <section id="tool-logo">
+                                                <img src="assets/images/swiftLogo.png" alt="">
+                                            </section>
+                                            <section id="tool-name">
+                                                <p>Swift</p>
+                                            </section>
+                                        </div>
+                                    </li>
+                                    <li class="glide__slide">
+                                        <div id="tool-container">
+                                            <section id="tool-logo">
+                                                <img src="assets/images/firebaselogo.png" alt="">
+                                            </section>
+                                            <section id="tool-name">
+                                                <p>Firebase</p>
+                                            </section>
+                                        </div>
+                                    </li>
+                                    <li class="glide__slide">
+                                        <div id="tool-container">
+                                            <section id="tool-logo">
+                                                <img src="assets/images/tableauLogo.png" alt="">
+                                            </section>
+                                            <section id="tool-name">
+                                                <p>Tableau</p>
+                                            </section>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section my-work" data-section="section3">
+                <div class="container">
+                    <div class="section-heading">
+                        <h2>My Work</h2>
+                        <div class="line-dec"></div>
+                    </div>
+                    <div class="left-image-post">
+                        <div class="left-image">
+                            <img src="assets/images/heatsressLogo.png" alt="" />
+                        </div>
+                        <div class="right-text">
+                            <h4>HeatStress</h4>
+                            <p>
+                                App aiming to lower the deaths of field workers by heat stroke related illnesses based on OSHA standards, the app calculates the
+                                individual heat stroke risk of a person by measuring his current location weather conditions and his own vital signs, providing him
+                                with reminders and recommendations to avoid having a heat illness. Using Java and SQLite, I was in charge of implementing the
+                                Wunderground API by IBM that provides weather data to the app, the algorithm that calculates the heat stroke risk of a person
+                                and the initial version of the app database.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="right-image-post">
+                        <div class="left-text">
+                            <h4>ARCA CONTINENTAL - ANOMALY DETECTION IN SUPPLY CHAIN</h4>
+                            <p>
+                              Anomaly detection model developed for Arca Continental, Monterrey used to monitor the Key Performance Indicators (KPIs) of
+                              some of the company’s main products. Using data analysis techniques such as data clustering and time series forecasting, I
+                              developed an anomaly detection model that compares the time series forecasted data to the expected data for the KPIs which is
+                              then compared to a confidence threshold, identifying the record that may present an anomaly. This model was developed using
+                              both Python (Anaconda Jupiter Notebook) and R.
+                            </p>
+                        </div>
+                        <div class="right-image">
+                            <img src="assets/images/arcaLogo.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="left-image-post">
+                        <div class="left-image">
+                            <img src="assets/images/itesmlogo.png" alt="" />
+                        </div>
+                        <div class="right-text">
+                            <h4>TECNOLÓGICO DE MONTERREY - CONEXIÓN TEC WEB SITE</h4>
+                            <p>
+                              Web system made to help the Tecnológico de Monterrey’s “Conexión Tec” entrepreneurship event management. This event
+                              seeks to bring students with innovative projects to experts in their respective industry or area of interest. Using Ruby on Rails, I
+                              was in charge of implementing the business logic of this event for the user, project and assistance management modules as well
+                              as refactoring the internal structure of the project using design patterns.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="right-image-post">
+                        <div class="left-text">
+                            <h4>SeriesTime</h4>
+                            <p>
+                              a site that helps TV fans to connect with their favorite shows by giving them access to the most up to date info of their shows like new trailer releases, opinions, show’s rating and more. It also allows people to discover their next binge worthy program by showcasing the most popular shows right now.
+                            </p>
+                            <div class="white-button">
+                              <a href="#">Read More</a>
+                            </div>
+                        </div>
+                        <div class="right-image">
+                            <img src="assets/images/seriesTimeCover.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+       </div>
+       <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+       <script>
+           new Glide('.glide').mount()
+       </script>
     </body>
 </html>
